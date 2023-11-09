@@ -1,0 +1,82 @@
+.maincont{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    z-index: -1;
+}
+.jacket{
+    display: flex;
+    flex-direction: row;
+padding: 5px;
+margin: 10px;
+justify-content: center;
+}
+.menjack{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 40px;
+    box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    &:hover{
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.5);
+    }
+}
+.menjackpic{
+    overflow: hidden;
+    position: relative;
+    width: 180px;
+    height: 180px;
+}
+h5{
+    margin-top: 5px;
+    font-weight: 300;
+}
+.footer{
+    background-color: rgb(165, 191, 212);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    &:hover{
+        box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+    }
+}
+.name,.ogfooter{
+    border: 1px black solid;
+}
+.name{
+    width: 100%;
+    text-align: center;
+    margin: 0px;
+}
+.ogfooter{
+    width: 100%;
+    display: flex;
+    border-top: none;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.aboutus,.contactus,.tech{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listabout{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.listabout li{
+    font-size: small;
+    font-weight: 100;
+    &:hover{
+        color: rgb(0, 0, 0);
+    }
+}

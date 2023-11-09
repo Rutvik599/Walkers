@@ -1,0 +1,72 @@
+.dialog1{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 2px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 14px;
+    z-index: 2;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+.head1{
+    display: flex;
+    padding-left: 40%;
+    justify-content: space-between;
+}
+.close1{
+    border: none;
+    background-color:rgba(0, 0, 0, 0) ;
+}
+.walker1{
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(120, 164, 249, 1) 50%, rgba(120, 164, 249, 1) 100%);
+    -webkit-background-clip: text;
+   background-clip: text;
+   transition: color 0.3s ease-in;
+    color: transparent;
+   font-weight: normal;
+   &:hover{
+    color: black;
+   }
+}
+.password1,.username1,.welcome1,.email1{
+    margin-left: 20%;
+}
+.login1{
+    margin-left: 40%;
+}
+.loginButton1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #78A4F9;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+}
+.usernameEntry1,.passwordEntry1,.emailEntry1{
+    border: none;
+    outline: none;
+    background-color: #EFEFEF;
+    padding: 10px;
+}
+.signin1{
+    display: flex;
+    align-items: center;
+}
+.signintext1{
+    font-weight: 200;
+}
+.signinbutton1{
+    cursor: pointer;
+    border: none;
+    font-weight: 100;
+    color: #78A4F9;
+    background: rgba(0, 0, 0, 0);
+    &:hover{
+        color: black;
+    }
+}
+
